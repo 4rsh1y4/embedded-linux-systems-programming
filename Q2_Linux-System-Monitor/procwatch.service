@@ -1,0 +1,11 @@
+[Unit]
+Description=Procwatch System Monitor
+After=network.target
+
+[Service]
+ExecStart= /home/rsh414/Daneshgah/embedded/Tamrin3_Q2 background /etc/procwatch.conf
+Restart=on-failure
+RestartSec=5s
+
+[Install]
+WantedBy=multi-user.target

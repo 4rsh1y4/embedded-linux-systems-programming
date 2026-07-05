@@ -1,0 +1,10 @@
+# Compiled Executables
+server
+client
+
+# Build directory
+build/
+*.o
+
+# Log or temp files
+*.log
