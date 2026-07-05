@@ -1,7 +1,5 @@
 # Compiled Executables
 procwatch
-server
-client
 
 # Build directory
 build/
